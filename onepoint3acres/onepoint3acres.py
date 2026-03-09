@@ -9,6 +9,7 @@ import time
 from .questions import questions
 from telegram.notify import send_tg_notification
 
+
 class OnePointThreeAcres:
 	def __init__(self, cookie: str, solver: TwoCaptcha):
 		self.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
