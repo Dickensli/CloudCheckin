@@ -11,7 +11,7 @@ from telegram.notify import send_tg_notification
 
 class OnePointThreeAcres:
 	def __init__(self, cookie: str, solver: TwoCaptcha):
-		self.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+		self.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 		self.cf_capcha_site_key = "0x4AAAAAAAA6iSaNNPWafmlz"
 		# daily checkin
 		self.checkin_page = "https://www.1point3acres.com/next/daily-checkin"
